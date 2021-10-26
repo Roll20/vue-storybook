@@ -1,0 +1,12 @@
+//
+// General
+//
+
+.btn {
+     position: relative;
+     @include transition($transition-base);
+ 
+     &:not(:last-child) {
+         margin-right: .5rem;
+     }
+ }

@@ -1,0 +1,14 @@
+// Bootstrap default functions
+@import "~bootstrap/scss/functions";
+
+// Roll20 themed bootstrap variables
+@import 'core/variables';
+
+// Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+@import '~bootstrap-vue/src/index.scss';
+
+// Roll20 custom components
+@import 'core/components';
+
