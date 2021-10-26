@@ -3,10 +3,8 @@
 </template>
 
 <script>
-import './button.css';
-
 export default {
-  name: 'my-button',
+  name: 'button',
 
   props: {
     label: {
@@ -19,9 +17,9 @@ export default {
     },
     size: {
       type: String,
-      default: 'medium',
+      default: 'btn-md',
       validator: function (value) {
-        return ['small', 'medium', 'large'].indexOf(value) !== -1;
+        return ['btn-sm', 'btn-md', 'btn-lg', 'btn-xl'].indexOf(value) !== -1;
       },
     },
     backgroundColor: {
@@ -32,10 +30,10 @@ export default {
   computed: {
     classes() {
       return {
-        'storybook-button': true,
-        'storybook-button--primary': this.primary,
-        'storybook-button--secondary': !this.primary,
-        [`storybook-button--${this.size}`]: true,
+        'btn': true,
+        'btn-primary': this.primary,
+        'btn-secondary': !this.primary,
+        [`${this.size}`]: true,
       };
     },
     style() {
