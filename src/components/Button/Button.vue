@@ -22,9 +22,9 @@ export default {
         return ['btn-sm', 'btn-md', 'btn-lg', 'btn-xl'].indexOf(value) !== -1;
       },
     },
-    backgroundColor: {
-      type: String,
-    },
+    // backgroundColor: {
+    //   type: String,
+    // },
   },
 
   computed: {
