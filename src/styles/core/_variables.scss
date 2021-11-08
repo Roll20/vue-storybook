@@ -33,7 +33,7 @@ $grays: map-merge((
 $blue:       #2684FF !default;
 $indigo:     #6e00ff !default;
 $purple:     #702c91 !default;
-$pink:       #ec008c !default;
+$pink:       #E10085 !default;
 $pink-light: #ff20a4 !default;
 $red:        #EC1009 !default;
 $orange:     #FFAB00 !default;
@@ -320,8 +320,8 @@ $border-color:                $gray-200 !default;
 
 $border-radius:               .5rem !default;
 $border-radius-xl:            .5rem !default;
-$border-radius-lg:            .375rem !default;
-$border-radius-sm:            .2rem !default;
+$border-radius-lg:            .5rem !default;
+$border-radius-sm:            .5rem !default;
 
 $rounded-pill:                50rem !default;
 
@@ -519,8 +519,8 @@ $btn-line-height-xl:          $input-btn-line-height-xl !default;
 
 $btn-border-width:            $input-btn-border-width !default;
 
-$btn-font-weight:             600 !default;
-$btn-box-shadow:              inset 0 1px 0 rgba($white, .15) !default;
+$btn-font-weight:             900 !default;
+$btn-box-shadow:              0 !default;
 $btn-hover-width:             0 !default;
 $btn-hover-box-shadow:        0 4px 15px rgba($primary, 0.35) !default;
 $btn-focus-width:             $input-btn-focus-width !default;

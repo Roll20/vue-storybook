@@ -1,5 +1,5 @@
 //
-// General
+// Butttons
 //
 
 .btn {
@@ -8,5 +8,35 @@
  
      &:not(:last-child) {
          margin-right: .5rem;
+     }
+ }
+
+.btn-primary {
+    &:hover {
+        background-color: #ED008C;
+        border-color: #ED008C;
+    }
+
+    &:focus,
+    &:active {
+        background-color:$primary;
+        border-color: $primary;
+    }
+}
+
+ .btn-secondary {
+     border-color: $primary;
+     background-color: $white;
+     color: $primary;
+
+     &:hover {
+         background-color: #ED008C;
+         border-color: #ED008C;
+     }
+
+     &:focus,
+     &:active {
+        background-color:$primary;
+        border-color: $primary;
      }
  }
